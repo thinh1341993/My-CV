@@ -118,7 +118,14 @@ img {
     transition-duration: 0.3s;
     margin-bottom: 5px;
 }
+.interests span{
+    color: black;
+}
 
 i:hover{
     transform: scale(1.25);
+}
+
+li{
+    color: black;
 }
