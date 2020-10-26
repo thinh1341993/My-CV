@@ -94,10 +94,10 @@ img {
 
 .out .content div h3 i{
     
-    width: 42px;
-    height: 42px;
+    width: 35px;
+    height: 35px;
     font-size: 25px;
-    line-height: 42px;
+    line-height: 35px;
     border-radius: 50%;
     border-style: solid;
   border-width: 1px;
@@ -117,4 +117,8 @@ img {
     font-size: 30px;
     transition-duration: 0.3s;
     margin-bottom: 5px;
+}
+
+i:hover{
+    transform: scale(1.25);
 }
