@@ -1,0 +1,120 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background: #ffffff;
+    cursor: default;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.out  {
+        width: 960px;
+        background: whitesmoke;
+        color: #ffffff;
+        margin: 20px auto;
+        box-shadow: 10px 10px #0e1442;
+        position: relative;
+        display: -webkit-box;
+        display: flex;
+    }
+.contact{
+    width: 30%;
+    padding: 30px 15px;
+    background: #00BCD5;
+    color: #ffffff;
+}
+.avatar{
+    max-height: 250px;
+    max-width: 250px;
+    height: var(--height);
+    width: var(--width);
+    transition: transform 0.2s;
+    /* position: absolute; */
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    padding: 5px;
+    background: linear-gradient(white,lightgrey);
+}
+.avatar:hover{
+    transform:scale(1.2);
+    transition:transform 0.2s;
+    z-index:10;
+  }
+img {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    width: 100%;
+    height: 100%;
+}
+.info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.out .contact .followMe div {
+    display: flex;
+    line-height: 24px;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.out .contact .followMe div div i {
+    color: white;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 15px;
+    transition-duration: 0.3s;
+}
+.out .contact .followMe div span {
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    transition-duration: 0.3s;
+}
+
+.content{
+    width: 100%;
+    padding: 30px;
+    color: #00BCD5;
+}
+
+.out .content div h3{
+    padding: 0px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #00BCD5;
+    border-bottom: #00BCD5;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+}
+
+.out .content div h3 i{
+    
+    width: 42px;
+    height: 42px;
+    font-size: 25px;
+    line-height: 42px;
+    border-radius: 50%;
+    border-style: solid;
+  border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    transition-duration: 0.3s;
+}
+
+.interests{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.interests i{
+    font-size: 30px;
+    transition-duration: 0.3s;
+    margin-bottom: 5px;
+}
